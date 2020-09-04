@@ -1,0 +1,74 @@
+baseURL = "https://fvinnen.de"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Website of Frederik Vinnen"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = ""
+
+[params]
+title = "Frederik Vinnen"
+author = "Frederik Vinnen"
+description = "I work as an Android Engineer at Otto Group. This is my personal Blog and contains only my thoughts."
+profilePicture = "images/profile.jpg"
+keywords = ""
+favicon = "favicons/"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/pfennigbaum"
+
+[[params.socialIcons]]
+icon = "fa-linkedin"
+title = "Linkedin"
+url = "https://de.linkedin.com/in/frederik-vinnen-063b91129"
+
+#[[params.socialIcons]]
+#icon = "fa-instagram"
+#title = "instagram"
+#url = "https://www.instagram.com/"
+
+[[params.socialIcons]]
+icon = "fa-xing"
+title = "Xing"
+url = "https://www.xing.com/profile/Frederik_Vinnen"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
