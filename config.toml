@@ -18,7 +18,7 @@ publishDir = "docs"
 [params]
 title = "Frederik Vinnen"
 author = "Frederik Vinnen"
-description = "I work as an Android Engineer at Otto Group. This is my personal Blog and contains only my thoughts."
+description = "I work as an Android Engineer at Otto Group. This is my personal Blog and contains my own thoughts solely."
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
@@ -39,20 +39,24 @@ title = "GitHub"
 url = "https://github.com/pfennigbaum"
 
 [[params.socialIcons]]
+icon = "fa-stack-overflow"
+title = "Stack Overflow"
+url = "https://stackoverflow.com/users/5024937/pfennigbaum"
+
+[[params.socialIcons]]
 icon = "fa-linkedin"
 title = "Linkedin"
 url = "https://de.linkedin.com/in/frederik-vinnen-063b91129"
-
-#[[params.socialIcons]]
-#icon = "fa-instagram"
-#title = "instagram"
-#url = "https://www.instagram.com/"
 
 [[params.socialIcons]]
 icon = "fa-xing"
 title = "Xing"
 url = "https://www.xing.com/profile/Frederik_Vinnen"
 
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:fvinnen+de@gmail.com"
 ## Menu items
 
 [menu]
